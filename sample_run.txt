@@ -1,0 +1,253 @@
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: abc
+Please enter a whole number.
+Enter choice: 
+Please enter a whole number.
+Enter choice: 99
+Number must be between 0 and 9.
+Enter choice: -1
+Number must be between 0 and 9.
+Enter choice: 4
+Search by name or code (Enter = show all): 
+P101 | Notebook 200 pages | Stationery | cost 38.00 | sell 50.00 | stock 120 | reorder 30
+P102 | Blue gel pen | Pens | cost 8.00 | sell 12.00 | stock 18 | reorder 25
+P103 | Black ball pen | Pens | cost 4.00 | sell 6.00 | stock 200 | reorder 50
+P104 | A4 sheets ream | Paper | cost 230.00 | sell 275.00 | stock 4 | reorder 5
+P105 | Pencil box | Accessories | cost 45.00 | sell 65.00 | stock 40 | reorder 10
+P106 | Highlighter set | Pens | cost 60.00 | sell 90.00 | stock 25 | reorder 10
+P107 | Geometry box | Accessories | cost 70.00 | sell 99.00 | stock 9 | reorder 10
+P108 | Stapler | Office | cost 55.00 | sell 80.00 | stock 30 | reorder 8
+P109 | Sticky notes | Paper | cost 20.00 | sell 30.00 | stock 75 | reorder 20
+P110 | File folder | Office | cost 15.00 | sell 25.00 | stock 60 | reorder 20
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 4
+Search by name or code (Enter = show all): pen
+P102 | Blue gel pen | Pens | cost 8.00 | sell 12.00 | stock 18 | reorder 25
+P103 | Black ball pen | Pens | cost 4.00 | sell 6.00 | stock 200 | reorder 50
+P105 | Pencil box | Accessories | cost 45.00 | sell 65.00 | stock 40 | reorder 10
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 1
+Product code: P101
+This code already exists.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 1
+Product code: Pen|Red
+The | character is not allowed.
+Product code: P111
+Name: Eraser
+Category: Accessories
+Cost price: abc
+Please enter a number like 45 or 45.50.
+Cost price: 0
+Price must be greater than 0.
+Cost price: 3
+Selling price: 2
+Warning: selling price is below cost price!
+Stock quantity: five
+Please enter a whole number.
+Stock quantity: -3
+Number must be between 0 and 1000000.
+Stock quantity: 2.5
+Please enter a whole number.
+Stock quantity: 100
+Reorder level: 20
+Product added.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 2
+Product code: ZZZ
+Product not found.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 2
+Product code: P102
+Quantity purchased: 0
+Number must be between 1 and 1000000.
+Quantity purchased: -3
+Number must be between 1 and 1000000.
+Quantity purchased: five
+Please enter a whole number.
+Quantity purchased: 20
+Done. New stock of Blue gel pen: 38
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 3
+Product code: ZZZ
+Product not found.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 3
+Product code: P101
+Notebook 200 pages - in stock: 120
+Quantity sold: 500
+Not enough stock. Only 120 available.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 3
+Product code: P101
+Notebook 200 pages - in stock: 120
+Quantity sold: 10
+Enter today's date (DD-MM-YYYY): 31-02-2026
+Invalid date. Example: 16-10-2026
+Enter today's date (DD-MM-YYYY): 20-10-2026
+
+------ BILL ------
+Product: Notebook 200 pages
+10 x Rs. 50.00 = Rs. 500.00
+Stock left: 110
+------------------
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 3
+Product code: P104
+A4 sheets ream - in stock: 4
+Quantity sold: 1
+Enter today's date (DD-MM-YYYY): 20-10-2026
+
+------ BILL ------
+Product: A4 sheets ream
+1 x Rs. 275.00 = Rs. 275.00
+Stock left: 3
+------------------
+Warning: this item is now low on stock!
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 5
+P104 A4 sheets ream stock 3 (reorder at 5)
+P107 Geometry box stock 9 (reorder at 10)
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 6
+Stationery: Rs. 4180.00
+Pens: Rs. 2604.00
+Paper: Rs. 2190.00
+Accessories: Rs. 2730.00
+Office: Rs. 2550.00
+GRAND TOTAL: Rs. 14254.00
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 7
+Total profit: Rs. 1294.00
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 8
+Product code to edit: P111
+1. Name  2. Category  3. Cost price  4. Selling price  5. Stock  6. Reorder level
+What to change: 4
+New selling price: 5
+Product updated.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 9
+Product code to delete: P111
+Delete Eraser? (y/n): n
+Cancelled.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 9
+Product code to delete: P111
+Delete Eraser? (y/n): y
+Product deleted.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 4
+Search by name or code (Enter = show all): eraser
+No products found.
+
+===== STOCKSMART MENU =====
+1. Add product          2. Record purchase
+3. Record sale          4. View / search products
+5. Low-stock alert      6. Stock value
+7. Profit report        8. Edit product
+9. Delete product       0. Exit
+Enter choice: 0
+Goodbye!
